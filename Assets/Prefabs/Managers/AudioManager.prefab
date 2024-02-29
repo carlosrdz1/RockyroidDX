@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3733265038996821774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3733265038996821775}
+  - component: {fileID: 3733265038996818160}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3733265038996821775
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3733265038996821774}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3733265038996818160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3733265038996821774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a4533767d3413f4d80a782ee2f49b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 0}
+  sounds:
+  - name: bombExplode
+    clip: {fileID: 8300000, guid: 64ecdae7ef3bfb245ad7f35de7edf55a, type: 3}
+    volume: 0.309
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: damageEnemy
+    clip: {fileID: 8300000, guid: 8cca2e926b7abd344b93ff0aea768c0e, type: 3}
+    volume: 0.32
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: hit
+    clip: {fileID: 8300000, guid: 7897dc667dbc47b44967cb319fbf55b8, type: 3}
+    volume: 0.309
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: jump
+    clip: {fileID: 8300000, guid: 6f17ed88fb2850d4f83a817687836f10, type: 3}
+    volume: 0.379
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: spring
+    clip: {fileID: 8300000, guid: ecb56bcb3ff75294682ea7eabfc133ab, type: 3}
+    volume: 0.379
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: hitYoshiBomb
+    clip: {fileID: 8300000, guid: 45a6254006837f34ea283f586cba961b, type: 3}
+    volume: 0.525
+    volumeVariance: 0
+    pitch: 1.76
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: triggeredYoshiBomb
+    clip: {fileID: 8300000, guid: 1614e9d02c75195459aa7ea76e486ff6, type: 3}
+    volume: 0.563
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: boomerang
+    clip: {fileID: 8300000, guid: 3d3ef273e27540e4e808e7edbaa7bf6a, type: 3}
+    volume: 0.185
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: level
+    clip: {fileID: 8300000, guid: 1bf1da3a414b9e640ade997f4aa84c07, type: 3}
+    volume: 0.258
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: deathTheme
+    clip: {fileID: 8300000, guid: 0639c64f7914ed0428d7720cf644b3f2, type: 3}
+    volume: 0.258
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: coin
+    clip: {fileID: 8300000, guid: 06f929816f400bc4fa94a53d32a658da, type: 3}
+    volume: 0.441
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: correctKey
+    clip: {fileID: 8300000, guid: 46a9b32fe9761d640854b8b9fc9e22a6, type: 3}
+    volume: 0.441
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: incorrectKey
+    clip: {fileID: 8300000, guid: 31fdb0079f1ba194988d2442df863239, type: 3}
+    volume: 0.441
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: capsule
+    clip: {fileID: 8300000, guid: 084ae29293b685547b5b7b3ddd96a81d, type: 3}
+    volume: 0.441
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: moveCursor
+    clip: {fileID: 8300000, guid: e41160d687bab8a43babbb6459e83983, type: 3}
+    volume: 0.441
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: pause
+    clip: {fileID: 8300000, guid: a65829823d750d44f93c569ff463bc55, type: 3}
+    volume: 0.441
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: selectOption
+    clip: {fileID: 8300000, guid: 0f6615541ffdc8e49ae6d3037fac3e3c, type: 3}
+    volume: 0.441
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: checkpoint
+    clip: {fileID: 8300000, guid: 601cc7a115c474b438f6ae6f4702143c, type: 3}
+    volume: 0.441
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: finishLevel
+    clip: {fileID: 8300000, guid: d5ba43e26269ccf4780558527e39bf5a, type: 3}
+    volume: 0.441
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
